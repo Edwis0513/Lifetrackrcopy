@@ -9,6 +9,7 @@ body {
 .w-70 {
     width: 70%;
 }
+
 .bg-bluish {
     background-color: #7d71d3;
 }
@@ -41,6 +42,10 @@ h2 {
     font-size: 48px;
     font-weight: 300;
     margin: 0 0 30px;
+}
+h3 {
+    font-size: 36px;
+    font-weight: 700;
 }
 
 h5 {
@@ -81,16 +86,142 @@ h5 {
 .about-item i {
     padding-right: 20px;
 }
+
 #features {
     background-image: url("../img/elipse-bg-three.png");
     background-position: center center;
 }
+
 .grey-p {
     color: #999;
-} 
+}
+
 .feature-items {
     margin: 0 0 60px;
 }
+
 .feature-items i {
     padding-bottom: 20px;
+}
+
+#promo-video {
+    background-image: url("../img/banner-bg.jpg");
+    background-position: left;
+    height: 700px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.video {
+    padding: 100px 0;
+}
+
+.video img {
+    border-radius: 8px;
+}
+
+.play-icon {
+    color: #fff;
+    font-size: 25px;
+    text-align: center;
+    width: 70px;
+    height: 70px;
+    position: absolute;
+    top: 320px;
+    left: 50%;
+    margin-left: -35px;
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #7d71d3;
+    border-radius: 50%;
+}
+
+.play-icon i {
+    z-index: 2;
+}
+
+.play-icon::after {
+    content: "";
+    position: absolute;
+    top: -30px;
+    height: 130px;
+    width: 130px;
+    border-radius: 50%;
+    background-color: rgba(125, 113, 211, 0.5);
+}
+
+.play-icon::before {
+    content: "";
+    position: absolute;
+    top: -15px;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    background-color: rgba(125, 113, 211, 0.7);
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+.pricing-table {
+    margin: 0 0 80px;
+    padding: 50px 0;
+    box-shadow: 0px 5px 20px 0px rgba(0, 0, 0, 0.1);
+}
+
+.feature-list li {
+    margin: 15px 0;
+}
+
+.blue-btn {
+    color: #fff;
+    text-transform: uppercase;
+    background-color: #7d71d3;
+    padding: 15px 40px;
+    border-radius: 40px;
+}
+
+.price-text {
+    font-size: 36px;
+    font-weight: 700;
+    color: #7d71d3;
+}
+
+.price-text span {
+    color: #999;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.bg-pink {
+    background-color: #ff698d;
+}
+
+.color-pink {
+    color: #ff698d;
+}
+#download {
+    background-image: url("../img/banner-bg.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 600px;
+}
+.chat-img {
+    top: -80px;
+}
+#counter {
+    padding-top: 180px;
+}
+.counter-item {
+    padding: 40px 0;
+    color: #fff;
+    border-radius: 10px;
+}
+.counter-item p {
+    font-size: 14px;
 }
