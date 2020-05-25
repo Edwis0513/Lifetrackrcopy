@@ -29,7 +29,9 @@ body {
     background-position: center;
     background-size: cover;
 }
-
+nav {
+    box-shadow: 0px 3px 10px 0px rgba(0, 0, 0, 0.1);
+}
 h1 {
     color: #fff;
     font-size: 60px;
@@ -253,6 +255,37 @@ ul {
     background-image: url("../img/shape-overlay-bg.jpg");
     background-position: center;
     background-size: cover;
+}
+
+.carousel-control-prev {
+    opacity: 1;
+    border-radius: 4px;
+    background-color: #fff;
+    height: 65px;
+    width: 65px;
+    top: 100px;
+    left: -100px;
+}
+
+.carousel-control-next {
+    opacity: 1;
+    border-radius: 4px;
+    background-color: #fff;
+    height: 65px;
+    width: 65px;
+    top: 100px;
+    right: -100px;
+}
+.carousel-control-next-icon {
+    background-color: #999;
+    border-radius: 50%;
+    background-size: 10px 10px;
+}
+
+.carousel-control-prev-icon {
+    background-color: #999;
+    border-radius: 50%;
+    background-size: 10px 10px;
 }
 
 #subcribe {
