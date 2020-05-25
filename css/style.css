@@ -88,3 +88,9 @@ h5 {
 .grey-p {
     color: #999;
 } 
+.feature-items {
+    margin: 0 0 60px;
+}
+.feature-items i {
+    padding-bottom: 20px;
+}
